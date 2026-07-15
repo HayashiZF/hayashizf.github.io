@@ -1,0 +1,12 @@
+id: carousel
+type: carousel
+aria_label: Photo gallery
+images:
+  - src: /img/home-carousel/8f96305704627126bcc1873cff20d0c0.jpg
+    alt: Zaifeng Lin photo 1
+  - src: /img/home-carousel/480df227b922077a156a85decbffd604.jpg
+    alt: Zaifeng Lin photo 2
+  - src: /img/home-carousel/755e7c85d7777132c05f89f6a636b7e0.jpg
+    alt: Zaifeng Lin photo 3
+  - src: /img/home-carousel/97f259bbb5026e9e51923b18b0bdd9d9.jpg
+    alt: Zaifeng Lin photo 4

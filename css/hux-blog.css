@@ -1108,38 +1108,55 @@ img::-moz-selection {
   background-color: #ffffff;
 }
 .navbar-custom {
-  background-color: #ffffff;
-  border-bottom: 1px solid #dbd9d3;
+  background-color: #c15f3c;
+  border-bottom: 1px solid #a25032;
 }
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
-  color: #302e2a;
+  color: #fffff0;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .nav li a:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .nav li a:focus {
-  color: #c15f3c;
+  color: #fffff0;
 }
 .navbar-custom .navbar-brand:hover {
-  color: #c15f3c;
+  color: #fffff0;
+}
+.navbar-custom .navbar-collapse {
+  background-color: #c15f3c;
+}
+.navbar-custom.is-fixed {
+  background-color: #c15f3c;
+  border-bottom-color: #a25032;
+}
+.navbar-custom.is-fixed .navbar-brand,
+.navbar-custom.is-fixed .nav li a {
+  color: #fffff0;
+}
+.navbar-custom.is-fixed .navbar-brand:hover,
+.navbar-custom.is-fixed .nav li a:hover,
+.navbar-custom.is-fixed .navbar-brand:focus,
+.navbar-custom.is-fixed .nav li a:focus {
+  color: #fffff0;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #302e2a;
+  background-color: #fffff0;
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
-    background-color: #ffffff;
+    background-color: #c15f3c;
   }
   .navbar-custom .navbar-brand,
   .navbar-custom .nav li a {
-    color: #302e2a;
+    color: #fffff0;
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .nav li a:hover,
   .navbar-custom .navbar-brand:focus,
   .navbar-custom .nav li a:focus {
-    color: #c15f3c;
+    color: #fffff0;
   }
 }
 .home-profile,
@@ -1154,13 +1171,42 @@ img::-moz-selection {
 }
 .home-profile h2,
 .teaching-page h2 {
-  color: #c15f3c;
+  color: var(--cell-title-color, #c15f3c);
+  font-size: var(--cell-title-font-size);
 }
 .home-profile h3,
 .teaching-page h3 {
   color: #302e2a;
   font-size: 18px;
   margin-bottom: 6px;
+}
+.homepage-headline,
+.homepage-subheading {
+  color: var(--headline-color, #302e2a) !important;
+  font-size: var(--headline-font-size);
+}
+.home-cell {
+  color: var(--cell-body-color, #302e2a);
+  font-size: var(--cell-body-font-size);
+}
+.home-cell h3 {
+  color: var(--cell-body-color, #302e2a);
+}
+.publication-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.publication-entry {
+  margin-bottom: 18px;
+}
+.publication-entry.publication-template {
+  border-left: 3px solid #c15f3c;
+  padding-left: 16px;
+}
+.publication-template-label {
+  color: #c15f3c;
+  font-weight: 700;
 }
 .home-carousel-section {
   max-width: 760px;

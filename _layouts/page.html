@@ -8,9 +8,17 @@ layout: default
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
                 <div class="site-heading">
+                    {% if page.homepage and site.data.homepage.headline %}
+                    <h1 class="homepage-headline" style="--headline-font-size: {{ site.data.homepage.headline.title_font_size }}; --headline-color: {{ site.data.homepage.headline.title_color }};">{{ site.data.homepage.headline.title }}</h1>
+                    {% else %}
                     <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                    {% endif %}
                     <!--<hr class="small">-->
+                    {% if page.homepage and site.data.homepage.headline %}
+                    <span class="subheading homepage-subheading" style="--headline-font-size: {{ site.data.homepage.headline.subtitle_font_size }}; --headline-color: {{ site.data.homepage.headline.subtitle_color }};">{{ site.data.homepage.headline.subtitle }}</span>
+                    {% else %}
                     <span class="subheading">{{ page.description }}</span>
+                    {% endif %}
                 </div>
             </div>
         </div>

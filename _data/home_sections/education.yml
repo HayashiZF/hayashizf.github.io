@@ -1,0 +1,12 @@
+id: education
+type: education
+title: Education
+entries:
+  - heading: Sun Yat-Sen University, 2017
+    items:
+      - B.S. in Mathematics and Applied Mathematics
+  - heading: Texas A&M University, 2017-present
+    items:
+      - M.S. in Mathematics (changed to PhD track in 2018)
+      - PhD, sixth year.
+footer: "Contact: linzf&lt;at&gt;tamu.edu (primary)"

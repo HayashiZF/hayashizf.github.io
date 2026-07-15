@@ -1,0 +1,19 @@
+id: teaching
+type: list
+title: Past Teaching
+list_class: teaching-history
+items:
+  - label: Math 300 Grading, Spring 2023
+    url: /teaching/
+  - label: Math 151 Lab and Recitation, Fall 2022
+  - label: Math 152 Recitation, Summer 2022
+  - label: Math 622 Grader, Spring 2022
+  - label: Math168 Instructor, Fall 2021
+  - label: Topology/Differential Geometry Qual Prep Instructor, Summer 2020
+  - label: Math 618 Grader, Spring 2021
+  - label: Math 617 Grader, Fall 2020
+  - label: Math 152 Recitation and Labs, Summer 2020
+  - label: Math 152 Recitation and Labs, Spring 2020
+  - label: Math 152 Recitation and Labs, Fall 2019
+  - label: Linear Algebra Help Session, Spring 2019
+  - label: Math 407 Grader, Fall 2018
