@@ -1,60 +1,72 @@
 ---
 layout: page
-description: "中西融合, 即学即会, 从此不再辛苦背单词"
+title: "Zaifeng Lin"
+description: "Applied Scientist · Differential and Sub-Riemannian Geometry"
 ---
 
-<!--
-<ul class="pager">
-  
-    <li class="next">
-        <a href="https://klovien.github.io/1-resources/" data-toggle="tooltip" data-placement="top" title="学习资料集">
-                        开始学习<br>
-        </a>
-    </li>           
-  
-    <li class="next">
-        <a href="https://klovien.github.io/2018/12/10/三叶语简介/" data-toggle="tooltip" data-placement="top" title="三叶语简介">
-                        了解更多<br>
-        </a>
-    </li>
-                    
-</ul>
--->
+<article class="home-profile post-container">
+    <section aria-labelledby="personal-heading">
+        <h2 id="personal-heading">Personal</h2>
+        <p>Ph.D. in Mathematics awarded at TAMU in Aug 2023. I obtained my B.S. degree in Math and Applied Math at SYSU.</p>
+        <p>Office: BLOC 604A (moved out)</p>
+        <p>Email: linzf&lt;at&gt;tamu.edu (still in use)</p>
+        <p>My doctoral research was supervised under <a href="https://www.math.tamu.edu/~zelenko/" target="_blank" rel="noopener noreferrer">Igor Zelenko</a>. Our areas are differential geometry and sub-Riemannian geometry.</p>
+        <p>My current position: applied scientist at the Research Institute of ChinaTelecom, Guangzhou, China.</p>
+        <p><a href="https://www.linkedin.com/in/zaifeng-lin-44472a119/" target="_blank" rel="noopener noreferrer">LinkedIn</a> &amp; <a href="https://github.com/HayashiZF" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+    </section>
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
-            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-        <div class="post-content-preview">
-            {{ post.content | strip_html | truncate:200 }}
+    <section class="home-carousel-section" aria-label="Photo gallery">
+        <div id="home-carousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+            <ol class="carousel-indicators">
+                <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#home-carousel" data-slide-to="1"></li>
+                <li data-target="#home-carousel" data-slide-to="2"></li>
+                <li data-target="#home-carousel" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active"><img src="{{ site.baseurl }}/img/home-carousel/8f96305704627126bcc1873cff20d0c0.jpg" alt="Zaifeng Lin photo 1"></div>
+                <div class="item"><img src="{{ site.baseurl }}/img/home-carousel/480df227b922077a156a85decbffd604.jpg" alt="Zaifeng Lin photo 2"></div>
+                <div class="item"><img src="{{ site.baseurl }}/img/home-carousel/755e7c85d7777132c05f89f6a636b7e0.jpg" alt="Zaifeng Lin photo 3"></div>
+                <div class="item"><img src="{{ site.baseurl }}/img/home-carousel/97f259bbb5026e9e51923b18b0bdd9d9.jpg" alt="Zaifeng Lin photo 4"></div>
+            </div>
+            <a class="left carousel-control" href="#home-carousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a>
+            <a class="right carousel-control" href="#home-carousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span></a>
         </div>
-    </a>
-    <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-</div>
-<hr>
-{% endfor %}
+    </section>
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+    <section aria-labelledby="research-heading">
+        <h2 id="research-heading">Past &amp; Current Research</h2>
+        <p><a href="{{ site.baseurl }}/old-version/Research.html">Here</a></p>
+    </section>
+
+    <section aria-labelledby="teaching-history-heading">
+        <h2 id="teaching-history-heading">Past Teaching</h2>
+        <ul class="teaching-history">
+            <li><a href="{{ site.baseurl }}/teaching/">Math 300 Grading, Spring 2023</a></li>
+            <li>Math 151 Lab and Recitation, Fall 2022</li>
+            <li>Math 152 Recitation, Summer 2022</li>
+            <li>Math 622 Grader, Spring 2022</li>
+            <li>Math168 Instructor, Fall 2021</li>
+            <li>Topology/Differential Geometry Qual Prep Instructor, Summer 2020</li>
+            <li>Math 618 Grader, Spring 2021</li>
+            <li>Math 617 Grader, Fall 2020</li>
+            <li>Math 152 Recitation and Labs, Summer 2020</li>
+            <li>Math 152 Recitation and Labs, Spring 2020</li>
+            <li>Math 152 Recitation and Labs, Fall 2019</li>
+            <li>Linear Algebra Help Session, Spring 2019</li>
+            <li>Math 407 Grader, Fall 2018</li>
+        </ul>
+    </section>
+
+    <section aria-labelledby="education-heading">
+        <h2 id="education-heading">Education</h2>
+        <h3>Sun Yat-Sen University, 2017</h3>
+        <ul><li>B.S. in Mathematics and Applied Mathematics</li></ul>
+        <h3>Texas A&amp;M University, 2017-present</h3>
+        <ul>
+            <li>M.S. in Mathematics(changed to PhD track in 2018)</li>
+            <li>PhD, sixth year.</li>
+        </ul>
+        <p>Contact: linzf&lt;at&gt;tamu.edu (primary)</p>
+    </section>
+</article>
