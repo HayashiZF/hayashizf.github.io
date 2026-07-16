@@ -5,8 +5,11 @@ entries:
   - heading: Sun Yat-Sen University, 2017
     items:
       - B.S. in Mathematics and Applied Mathematics
-  - heading: Texas A&M University, 2017-present
+  - heading: UC Berkeley, 2015
     items:
-      - M.S. in Mathematics (changed to PhD track in 2018)
-      - PhD, sixth year.
-footer: "Contact: linzf&lt;at&gt;tamu.edu (primary)"
+      - Visiting Student at Math. Dept.
+  - heading: Texas A&M University, 2023
+    items:
+      - Ph.D. in Mathematics
+      - Differential Geometry, Sub-Riemannian Geometry, Geometric Control Theory
+footer: "Contact: linzf&lt;at&gt;tamu.edu (primary), linzf0817&lt;at&gt;hotmail.com (secondary)"

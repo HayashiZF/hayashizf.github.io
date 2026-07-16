@@ -9,25 +9,25 @@ entries:
     venue: IEEE TRANSACTIONS ON NETWORK AND SERVICE MANAGEMENT
     date: 04 2026
     url: https://doi.org/10.1109/TNSM.2026.3680529
-    url_label: Publication link
+    url_label: IEEE link
   - template : false
     authors:  Zaifeng Lin, Igor Zelenko
     title: On Eisenhart's Type Theorem for Sub-Riemannian Metrics on Step 2 Distributions with ad-Surjective Tanaka Symbols
     venue: REGULAR & CHAOTIC DYNAMICS
     date: 2024
     url: https://doi.org/10.1134/S1560354724020023
-    url_label: Publication link
+    url_label: RCD link
   - template: false
     authors:  Zaifeng Lin
     title: On Conditions for Sub-Riemannian Metrics to Admit the Product Structure
     venue: THESIS 
     date: 2023
     url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_Pc_c2IAAAAJ&citation_for_view=_Pc_c2IAAAAJ:9yKSN-GCB0IC
-    url_label: Publication link
+    url_label: Thesis link
   - template: false
     authors: P. Cai, M. Xu, S.-S. Meng, Z. Lin, T. Yan, H. F. Drake, P. Zhang, J. Pang, Z.-Y. Gu, H.-C. Zhou
     title: Precise Spatial-Designed Metal-Organic-Framework Nanosheets for Efficient Energy Transfer and Photocatalysis
     venue: ANGEWANDTE CHEMIE-INTERNATIONAL EDITION
     date: 2021
     url: https://doi.org/10.1002/ANIE.202111594
-    url_label: Publication link
+    url_label: ANGEWANDTE CHEMIE link

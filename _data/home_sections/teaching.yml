@@ -3,6 +3,7 @@ type: list
 title: Past Teaching
 list_class: teaching-history
 items:
+  - label:  Office: BLOC 604A (moved out)
   - label: Math 300 Grading, Spring 2023
     url: /teaching/
   - label: Math 151 Lab and Recitation, Fall 2022

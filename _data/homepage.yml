@@ -1,13 +1,13 @@
 headline:
-  title: Zaifeng Lin
-  subtitle: Applied Scientist · Differential and Sub-Riemannian Geometry
-  title_font_size: 30px
+  title: Zaifeng Lin (林在峰)
+  subtitle: Ph.D. in Mathematics | Texas A&amp;M University | Applied Scientist
+  title_font_size: 28px
   title_color: "#302E2A"
   subtitle_font_size: 18px
   subtitle_color: "#302E2A"
 
 typography:
-  section_title_font_size: 28px
+  section_title_font_size: 26px
   section_title_color: "#C15F3C"
   body_font_size: 18px
   body_color: "#302E2A"
