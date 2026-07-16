@@ -18,10 +18,8 @@ featured-condition-size: 1
 
 # Build settings
 permalink: pretty
-paginate: 10
 exclude: ["less", "node_modules", "Gruntfile.js", "package.json", "README.md"]
 anchorjs: true
-gems: [jekyll-paginate]
 markdown: kramdown
 highlighter: rouge
 kramdown:
