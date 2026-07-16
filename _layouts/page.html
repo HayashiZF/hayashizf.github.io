@@ -7,7 +7,10 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
-                <div class="site-heading">
+                <div class="site-heading{% if page.homepage %} homepage-hero{% endif %}">
+                    {% if page.homepage %}
+                    <div class="homepage-hero-copy">
+                    {% endif %}
                     {% if page.homepage and site.data.homepage.headline %}
                     <h1 class="homepage-headline" style="--headline-font-size: {{ site.data.homepage.headline.title_font_size }}; --headline-color: {{ site.data.homepage.headline.title_color }};">{{ site.data.homepage.headline.title }}</h1>
                     {% else %}
@@ -18,6 +21,15 @@ layout: default
                     <span class="subheading homepage-subheading" style="--headline-font-size: {{ site.data.homepage.headline.subtitle_font_size }}; --headline-color: {{ site.data.homepage.headline.subtitle_color }};">{{ site.data.homepage.headline.subtitle }}</span>
                     {% else %}
                     <span class="subheading">{{ page.description }}</span>
+                    {% endif %}
+                    {% if page.homepage %}
+                    </div>
+                    {% assign gallery = site.data.home_sections.carousel %}
+                    {% if gallery %}
+                    <div class="homepage-hero-gallery">
+                        {% include home-cell.html cell=gallery defaults=site.data.homepage.typography %}
+                    </div>
+                    {% endif %}
                     {% endif %}
                 </div>
             </div>

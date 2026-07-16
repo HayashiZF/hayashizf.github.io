@@ -6,7 +6,7 @@ homepage: true
 <article class="home-profile post-container">
     {% for section_id in site.data.homepage.section_order %}
         {% assign cell = site.data.home_sections[section_id] %}
-        {% if cell %}
+        {% if cell and cell.type != 'carousel' %}
             {% include home-cell.html cell=cell defaults=site.data.homepage.typography %}
         {% endif %}
     {% endfor %}

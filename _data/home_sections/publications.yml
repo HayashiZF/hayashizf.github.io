@@ -5,7 +5,7 @@ title_font_size: 30px
 entries:
   - template: false
     authors:  Z. Lin, X. Gong, Y. Zhu, B. Yang and K. Ruan, 
-    title: PoD-BNG for Mega-Metropolitan Networks: Reliable and Scalable Broadband Network Gateway Evolution
+    title: "PoD-BNG for Mega-Metropolitan Networks: Reliable and Scalable Broadband Network Gateway Evolution"
     venue: IEEE TRANSACTIONS ON NETWORK AND SERVICE MANAGEMENT
     date: 04 2026
     url: https://doi.org/10.1109/TNSM.2026.3680529

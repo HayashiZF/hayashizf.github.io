@@ -1117,6 +1117,46 @@ img::-moz-selection {
 	font-size: var(--headline-font-size);
 }
 
+.intro-header .homepage-hero {
+	@media only screen and (min-width: 768px) {
+		display: flex;
+		align-items: center;
+		gap: 36px;
+		padding: 75px 0;
+	}
+}
+
+.homepage-hero-copy {
+	flex: 1 1 auto;
+	min-width: 0;
+
+	@media only screen and (min-width: 768px) {
+		text-align: left;
+	}
+}
+
+.homepage-hero-gallery {
+	flex: 0 1 380px;
+	width: 100%;
+
+	.home-carousel-section {
+		max-width: 380px;
+		margin: 24px auto 0;
+	}
+
+	#home-carousel .item img {
+		height: 210px;
+	}
+
+	@media only screen and (min-width: 768px) {
+		width: 380px;
+
+		.home-carousel-section {
+			margin-top: 0;
+		}
+	}
+}
+
 .home-cell {
 	color: var(--cell-body-color, @gray-dark);
 	font-size: var(--cell-body-font-size);
