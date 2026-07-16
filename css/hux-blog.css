@@ -1180,8 +1180,8 @@ img::-moz-selection {
   font-size: 18px;
   margin-bottom: 6px;
 }
-.homepage-headline,
-.homepage-subheading {
+.intro-header .site-heading .homepage-headline,
+.intro-header .site-heading .homepage-subheading {
   color: var(--headline-color, #302e2a) !important;
   font-size: var(--headline-font-size);
 }
